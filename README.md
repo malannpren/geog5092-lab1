@@ -12,5 +12,6 @@ Part I:
 2) Add a new field named mapunit to each joined feature class and calculate the values for all features as the map unit ID of the feature class. The map unit ID is the suffix of the layer name (e.g., co641).
 3) Merge the 9 feature classes into a new feature class.
 4) Intersect the merged feature class with the watershed boundaries.
+
 Part II:
 Find the number of features in the resulting intersected feature class that correspond to each watershed. Report these two numbers in a print statement at the end of your script. Hint: Look at the groupby function from pandas, which column should you group by?
